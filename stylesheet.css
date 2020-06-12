@@ -1,0 +1,2185 @@
+/* -------------- CSS for the index page -------------- */
+
+.playGameButt /* Button on index page to go to the new account page */
+{
+    cursor: pointer;
+    font-family: "Arial Black", Arial, sans-serif;
+    font-size: large;
+    width: 40%;
+    margin-top: 20px;
+    padding: 20px;
+    background: #bebebe;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 25px;
+}
+
+.newAccountButt /* Button on index page to go to the new account page */
+{
+    cursor: pointer;
+    font-family: "Arial Black", Arial, sans-serif;
+    font-size: large;
+    width: 40%;
+    margin-top: 20px;
+    padding: 20px;
+    background: #bebebe;
+    margin-left: 5%;
+    margin-right: 4%;
+    border-radius: 25px;
+
+}
+
+.playGameButt:hover
+{
+    background-color: black;
+    color: white;
+}
+
+.newAccountButt:hover
+{
+    background-color: black;
+    color: white;
+}
+
+.indexImageHolder
+{
+    width: 100%;
+    text-align: center;
+}
+
+
+/* -------------- CSS for the log in box at the top of the page -------------- */
+
+.lOtop /* Class that defines the CSS for top section holding the log in form*/
+{
+    height: 40px;
+    outline: none;
+    font-family: "Arial Black", Arial, sans-serif;
+    padding: 10px;
+    padding-top: 0px;
+}
+
+.formHolder /* Class for div around log in form */
+{
+    height: 30px;
+    padding: 10px;
+    width: 25%;
+    outline: none;
+    position: relative;
+    float: right;
+}
+
+#loginForm /* ID for log in form */
+{
+    float: right;
+    background-color: white;
+    border-radius: 5px;
+    font-size: xx-small;
+    outline: black solid 1px;
+    width: 300px;
+    padding-left: 20px;
+    padding: 7px;
+}
+
+#loginForm:hover /* Mouse hover on log in form */
+{
+    background-color: #bebebe;
+    font-size: xx-small;
+    outline: none;
+    border-radius: 5px;
+    width: 300px;
+    padding-left: 20px;
+    padding: 7px;
+}
+
+
+#loginForm .formInput /* Input elements in log in form */
+ {
+     width: 60px;
+ }
+
+#logOutForm /* ID for log out form */
+{
+    background-color: white;
+    border-radius: 5px;
+    font-size: xx-small;
+    outline: black solid 1px;
+    width: 300px;
+    padding-left: 20px;
+    padding: 7px;
+}
+
+#logOutForm:hover /* Mouse hover on log out for */
+{
+    background-color: #bebebe;
+    font-size: xx-small;
+    outline: none;
+    border-radius: 5px;
+    width: 300px;
+    padding-left: 20px;
+    padding: 7px;
+}
+
+#logOutForm .logOutButt /* Button on log out form */
+{
+    float: right;
+}
+
+/* -------------- CSS for the the new account page -------------- */
+
+
+
+#newTeacherForm /* ID for the form to create a new teacher. */
+{
+    border-radius: 10px;
+    margin-left: 35%;
+    margin-top: 5%;
+    width: 30%;
+    padding: 10px;
+    background-color: white;
+    border: solid black 1px;
+}
+
+#newTeacherForm:hover /* Mouse hover on the teacher form */
+{
+    background-color: #bebebe;
+}
+
+#newTeacherForm input /* For input elements in the new teacher form ID */
+ {
+    width: 97%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 20px;
+}
+
+#newTeacherForm select /* For select elements in the new teacher form ID */
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 97%;
+}
+
+#newTeacherForm .butt /* For the button to add the new teacher information */
+{
+    margin-top: 10px;
+    width: 99%;
+}
+
+input:focus /* To turn of the any highlight when the user the user in inputting in an input element. */
+{
+    outline: none;
+}
+
+select:focus /* To turn of the any highlight when the user the user in inputting in an select element. */
+{
+    outline: none;
+}
+
+/* -------------- CSS for the users account details banner -------------- */
+.gameTeacherContainer
+{
+    list-style-type: none;
+    margin-left: 60%;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 35%;
+}
+
+.gameTeacherButt
+{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    float: left;
+    background-color: #bebebe;
+}
+
+.gameTeacherButt a
+{
+    display: block;
+    color: white;
+    font-family: "Arial Black", Arial, sans-serif;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+
+/* Change the link color to #111 (black) on hover */
+.gameTeacherButt a:hover
+{
+    background-color: #111;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.banner
+{
+    border: black solid 1px;
+    width: 100%;
+    height: 100px;
+    border-radius: 15px;
+}
+
+.testNextYearButt
+{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    float: left;
+    background-color: #bebebe;
+    display: block;
+    color: white;
+    font-family: "Arial Black", Arial, sans-serif;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+.testNextYearButt:hover
+{
+    cursor: pointer;
+    background-color: #111;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.avatarContainer
+{
+    border: black solid 1px;
+    border-radius: 15px;
+    width: 150px;
+    height: 150px;
+    margin-left: 20px;
+    margin-top: -25px;
+    background-color: white;
+    float: left;
+}
+
+.avatarContainer:hover
+{
+    background-color: #bebebe;
+}
+
+.avatarContainerInner
+{
+    background-color: white;
+    border: black solid 1px;
+    border-radius: 15px;
+    width: 130px;
+    height: 130px;
+    margin-left: 9px;
+    margin-top: 9px;
+    position: fixed;
+    overflow: hidden;
+}
+
+.usersName
+{
+    float: left;
+    position: relative;
+    border: none;
+    width: 20%;
+    height: 25px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.firstName
+{
+    margin: 0;
+    font-family: "Arial Black", Arial, sans-serif;
+}
+
+.leaderOf
+{
+    margin-top: -3px;
+}
+
+.gameButtsContainer
+{
+    margin-top: -11px;
+    height: 47px;
+    list-style: none;
+    border: none;
+    overflow: hidden;
+    width: 720px;
+}
+
+.cityNameButt
+{
+    float: left;
+    padding: 01px 50px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    text-align: left;
+    height: 45px;
+    width: fit-content;
+    margin-left: -40px;
+    font-family: "Arial Black", Arial, sans-serif;
+    border: none;
+    background-color: white;
+}
+
+.cityNameButt a
+{
+    text-decoration: none;
+    coler: black;
+}
+
+.cityNameButt a:visited
+{
+    text-decoration: none;
+    color: black;
+}
+
+.cityNameButt:hover
+{
+    background-color: #bebebe;
+}
+
+.cityYearButt
+{
+    float: left;
+    padding: 01px 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    text-align: left;
+    height: 45px;
+    width: fit-content;
+    font-family: "Arial Black", Arial, sans-serif;
+    border: none;
+    background-color: white;
+}
+
+.cityYearButt a
+{
+    text-decoration: none;
+    coler: black;
+}
+
+.cityYearButt a:visited
+{
+    text-decoration: none;
+    color: black;
+}
+
+.cityYearButt:hover
+{
+    background-color: #bebebe;
+}
+
+.cityPopButt
+{
+    float: left;
+    padding: 01px 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    text-align: left;
+    height: 45px;
+    width: fit-content;
+    font-family: "Arial Black", Arial, sans-serif;
+    border: none;
+    background-color: white;
+}
+
+.cityPopButt a
+{
+    text-decoration: none;
+    coler: black;
+    margin-top: -10px;
+}
+
+.cityPopButt a:visited
+{
+    text-decoration: none;
+    color: black;
+}
+
+.cityPopButt:hover
+{
+    background-color: #bebebe;
+}
+
+.notificationButt
+{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom: 1px black solid;
+    float: right;
+    background-color: #bebebe;
+}
+
+.notificationButt a
+{
+    display: block;
+    color: white;
+    font-family: "Arial Black", Arial, sans-serif;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.notificationButt a:hover
+{
+    background-color: #111;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.noteButtContainer
+{
+    list-style-type: none;
+    margin-right: 5%;
+    margin-bottom: 0px;
+    margin-top: 0;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+}
+
+
+/* -------------- CSS for the teacher interface -------------- */
+
+.teacherInterfaceContainer
+{
+    list-style-type: none;
+    margin-left: 28%;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 30%;
+}
+
+.teacherInterfaceButt
+{
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    float: left;
+    background-color: #bebebe;
+}
+
+.teacherInterfaceButt a
+{
+    display: block;
+    color: white;
+    font-family: "Arial Black", Arial, sans-serif;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.teacherInterfaceButt a:hover
+{
+    background-color: #111;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.upperButtsContainer
+{
+    float: right;
+    border: thin black none;
+    width: 50%;
+    height: 49%;
+}
+
+.lowerButtsContainer
+{
+    list-style-type: none;
+    float: right;
+    width: 50%;
+    height: 50%;
+}
+
+/* -------------- CSS for the teacher interface page -------------- */
+
+.classesMain
+{
+    border: none;
+    width: 100%;
+    height: 400px;
+    margin-top: 10px;
+    float: left;
+}
+
+.createClass
+{
+    margin-left: -20px;
+    width: 100%;
+    background-color: #bebebe;
+    border-radius: 10px;
+}
+
+.createClass a
+{
+    display: block;
+    color: white;
+    font-family: "Arial Black", Arial, sans-serif;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.createClass a:hover
+{
+    background-color: #111;
+    border-radius: 10px;
+}
+
+#newClassForm
+{
+    font-family: "Arial Black", Arial, sans-serif;
+    float: left;
+    margin-left: 5%;
+}
+
+
+#newClassForm input
+{
+    width: 250px;
+}
+
+#inviteTeacherForm
+{
+    font-family: "Arial Black", Arial, sans-serif;
+    float: left;
+    margin-left: 5%;
+}
+
+
+#inviteTeacherForm input
+{
+    width: 250px;
+}
+
+.newClassButt
+{
+    font-family: "Arial Black", Arial, sans-serif;
+    margin-right: 20%;
+    margin-top: 15px;
+    float: left;
+    padding: 16px 32px;
+    background-color: #bebebe;
+    color: black;
+    border-radius: 10px;
+}
+
+.newClassButt:hover
+{
+    background-color: black;
+    color: white;
+}
+
+.selectContainer
+{
+    width: 30%;
+    float:left;
+    margin-top: -33px;
+    margin-left: 10.5%;
+}
+
+#classSelect
+{
+    font-family: "Arial Black", Arial, sans-serif;
+    width: 100%;
+    height: 33px;
+}
+
+.account
+{
+    border: solid black 1px;
+}
+
+.viewClasses
+{
+    width: 10%;
+    padding: 5px 1px;
+    background-color: #bebebe;
+    border-radius: 10px;
+}
+
+.viewClasses:hover
+{
+    background-color: #000000;
+}
+
+.viewClasses a
+{
+    display: block;
+    color: white;
+    font-family: "Arial Black", Arial, sans-serif;
+    text-align: center;
+    text-decoration: none;
+}
+
+.classButtContainer
+{
+    border: none;
+    height: 50px;
+}
+
+.createClass2
+{
+    margin-left: 41%;
+    width: 10%;
+    padding: 5px 2px;
+    background-color: #bebebe;
+    border-radius: 10px;
+    float: left;
+    margin-top: -33px;
+}
+
+.createClass2:hover
+{
+    background-color: #55e67b;
+}
+
+.createClass2 a
+{
+    display: block;
+    color: white;
+    font-family: "Arial Black", Arial, sans-serif;
+    text-align: center;
+    text-decoration: none;
+}
+
+.deleteClass
+{
+    margin-left: 52%;
+    width: 10%;
+    padding: 5px 2px;
+    background-color: #bebebe;
+    border-radius: 10px;
+    float: left;
+    margin-top: -33px;
+}
+
+.deleteClass:hover
+{
+    background-color: #db4b12;
+}
+
+.deleteClass a
+{
+    display: block;
+    color: white;
+    font-family: "Arial Black", Arial, sans-serif;
+    text-align: center;
+    text-decoration: none;
+}
+
+.accountsTable
+{
+    width: 100%;
+    margin-top: 0px;
+    float: left;
+}
+
+.accountsTable th
+{
+    text-align: left;
+    height: 50px;
+}
+
+.accountsTable input
+{
+    float: right;
+    margin-right: 20px;
+}
+
+.tableUsername
+{
+    width: 22%;
+}
+
+.tableName
+{
+    width: 68%;
+}
+
+.tableCheck
+{
+    width: 10%;
+}
+
+.tableContainer
+{
+    margin-top: 10px;
+    width: 40.4%;
+    border-right: 1px black solid;
+    height: 350px;
+    overflow: auto;
+}
+
+.deleteStatement
+{
+    font-family: "Arial", Arial, sans-serif;
+}
+
+.yesNoButtContainer
+{
+    width: 27.5%;
+    margin-top: 5px;
+}
+
+.noButtContainer
+{
+    background-color: #db4b12;
+    padding: 10px 5px;
+    width: 45%;
+    border-radius: 10px;
+    float: left;
+}
+
+.noButtContainer:hover
+{
+    background-color: #8f3610;
+}
+
+.noButtContainer a
+{
+    display: block;
+    color: white;
+    font-family: "Arial Black", Arial, sans-serif;
+    text-align: center;
+    text-decoration: none;
+}
+
+.yesButtContainer
+{
+    background-color: #bebebe;
+    padding: 10px 5px;
+    width: 45%;
+    border-radius: 10px;
+    margin-left: 1%;
+    float: left;
+}
+
+.yesButtContainer:hover
+{
+    background-color: #55e67b;
+}
+
+.yesButtContainer a
+{
+    display: block;
+    color: white;
+    font-family: "Arial Black", Arial, sans-serif;
+    text-align: center;
+    text-decoration: none;
+}
+
+#newStudentForm /* ID for the form to create a new teacher. */
+{
+    margin-left: 10.5%;
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 28.2%;
+    padding: 10px;
+    background-color: white;
+    border: solid black 1px;
+}
+
+#newStudentForm:hover /* Mouse hover on the teacher form */
+{
+    background-color: #bebebe;
+}
+
+#newStudentForm input /* For input elements in the new teacher form ID */
+{
+    width: 97%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 20px;
+}
+
+#newStudentForm .butt /* For the button to add the new teacher information */
+{
+    margin-top: 10px;
+    width: 99%;
+}
+
+.newStudentButt
+{
+    margin-left: 63%;
+    width: 10%;
+    padding: 5px 2px;
+    background-color: #bebebe;
+    border-radius: 10px;
+    float: left;
+    margin-top: -33px;
+}
+
+.newStudentButt:hover
+{
+    background-color: #55e67b;
+}
+
+.newStudentButt a
+{
+    display: block;
+    color: white;
+    font-family: "Arial Black", Arial, sans-serif;
+    text-align: center;
+    text-decoration: none;
+}
+
+.classesBottomContainer
+{
+    border: none;
+    width: 100%;
+    height: 40px;
+    margin-top: 5px;
+}
+
+.downloadButt
+{
+    margin-left: 86%;
+    width: 11%;
+    padding: 5px 2px;
+    background-color: #bebebe;;
+    border-radius: 10px;
+    float: left;
+    margin-top: -33px;
+}
+
+.downloadButt:hover
+{
+    background-color: #000000;
+}
+
+.downloadButt a
+{
+    display: block;
+    color: white;
+    font-family: "Arial Black", Arial, sans-serif;
+    text-align: center;
+    text-decoration: none;
+}
+
+.inviteTeacherButt
+{
+    margin-left: 74%;
+    width: 11%;
+    padding: 5px 2px;
+    background-color: #bebebe;;
+    border-radius: 10px;
+    float: left;
+    margin-top: -33px;
+}
+
+.inviteTeacherButt:hover
+{
+    background-color: #000000;
+}
+
+.inviteTeacherButt a
+{
+    display: block;
+    color: white;
+    font-family: "Arial Black", Arial, sans-serif;
+    text-align: center;
+    text-decoration: none;
+}
+
+.deleteStudentButt
+{
+    width: 9%;
+    padding: 5px 1px;
+    background-color: #bebebe;
+    border-radius: 10px;
+}
+
+.deleteStudentButt:hover
+{
+    background-color: #db4b12;
+}
+
+.deleteStudentButt a
+{
+    display: block;
+    color: white;
+    font-family: "Arial Black", Arial, sans-serif;
+    text-align: center;
+    text-decoration: none;
+}
+
+.removeStudentButt
+{
+    margin-left: 10%;
+    width: 9%;
+    padding: 5px 2px;
+    background-color: #bebebe;
+    border-radius: 10px;
+    float: left;
+    margin-top: -33px;
+}
+
+.removeStudentButt:hover
+{
+    background-color: #000000;
+}
+
+.removeStudentButt a
+{
+    display: block;
+    color: white;
+    font-family: "Arial Black", Arial, sans-serif;
+    text-align: center;
+    text-decoration: none;
+}
+
+.moveStudentButt
+{
+    margin-left: 20%;
+    width: 9%;
+    padding: 5px 2px;
+    background-color: #bebebe;
+    border-radius: 10px;
+    float: left;
+    margin-top: -33px;
+}
+
+.moveStudentButt:hover
+{
+    background-color: #000000;
+}
+
+.moveStudentButt a
+{
+    display: block;
+    color: white;
+    font-family: "Arial Black", Arial, sans-serif;
+    text-align: center;
+    text-decoration: none;
+}
+
+.addToButt
+{
+    margin-left: 30%;
+    width: 9%;
+    padding: 5px 2px;
+    background-color: #bebebe;
+    border-radius: 10px;
+    float: left;
+    margin-top: -33px;
+}
+
+.addToButt:hover
+{
+    background-color: #55e67b;
+}
+
+.addToButt a
+{
+    display: block;
+    color: white;
+    font-family: "Arial Black", Arial, sans-serif;
+    text-align: center;
+    text-decoration: none;
+}
+
+.rewardFormContainer
+{
+    width: 45.2%;
+    height: 350px;
+    border-left: 1px solid black;
+    float: right;
+    margin-top: -350px;
+    margin-right: 35px;
+}
+
+#rewardForm
+{
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+
+#rewardPresetSelect
+{
+    font-family: "Arial Black", Arial, sans-serif;
+    width: 100%;
+    float: left;
+    height: 33px;
+}
+
+.presetName
+{
+    width: 100%;
+    font-family: "Arial Black", Arial, sans-serif;
+    margin-top: 10px;
+}
+
+.presetNameInput
+{
+    font-size: medium;
+    margin-top: -2px;
+    float: right;
+    width: 75%;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.presetMessage
+{
+    width: 100%;
+    font-family: "Arial Black", Arial, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.presetMessageInput
+{
+    font-size: medium;
+    resize: none;
+    float: right;
+    width: 99%;
+    height: 100px;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.presetNums
+{
+    width: 100%;
+    font-family: "Arial Black", Arial, sans-serif;
+}
+
+.presetCoinsInput
+{
+    margin-top: 10px;
+    font-size: medium;
+    width: 20%;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.rewardFormSubmitSpan
+{
+    margin-top: 25px;
+    width: 100%;
+    float: right;
+    font-family: "Arial", Arial, sans-serif;
+}
+
+.rewardFormSubmit
+{
+    cursor: hand;
+    margin-top: -5px;
+    float: right;
+    font-family: "Arial Black", Arial, sans-serif;
+    color: white;
+    width: 20%;
+    padding: 10px 2px;
+    background-color: #bebebe;
+    border-radius: 10px;
+}
+
+.rewardFormSubmit:hover
+{
+
+
+    background-color: #000000;
+}
+
+/* -------------- CSS for the changing passwords page -------------- */
+
+#changePassword /* ID for the form to change an accounts password. */
+{
+    border-radius: 10px;
+    margin-left: 35%;
+    margin-top: 5%;
+    width: 30%;
+    padding: 10px;
+    background-color: white;
+    border: solid black 1px;
+}
+
+#changePassword:hover /* Mouse hover on the change password form */
+{
+    background-color: #bebebe;
+}
+
+#changePassword input /* For input elements in the change password form ID */
+{
+    width: 97%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 20px;
+}
+
+
+#changePassword .butt /* For the button to change the password information */
+{
+    margin-top: 10px;
+    width: 99%;
+}
+
+/* -------------- CSS for the notification page -------------- */
+
+.noteTable
+{
+    border: thin black;
+    width: 100%;
+    overflow: scroll;
+    border-collapse: collapse;
+}
+
+.noteTable th
+{
+    text-align: left;
+}
+
+.noteTableCheck
+{
+    width: 6%;
+}
+
+.noteTableCheck2
+{
+    width: 4%;
+}
+
+.noteTableDate
+{
+    width: 10%;
+}
+
+.noteTableType
+ {
+     width: 10%;
+ }
+
+.noteTableFrom
+{
+    width: 10%;
+}
+
+
+.noteTableCoins
+{
+    width: 10%;
+}
+
+.noteTableQCoins
+{
+    width: 10%;
+}
+
+.noteTable tr
+{
+    border-bottom: solid black 1px;
+    height: 50px;
+}
+
+.tableRow
+{
+    background-color: #ffffff
+}
+
+.tableRow:hover
+{
+    background-color: #bebebe;
+}
+
+.inNoteTable
+{
+    height: 30px;
+    border: black solid;
+    width: 15%;
+    margin-left: 20px;
+}
+
+.inNoteTable th
+{
+    text-align: left;
+}
+
+.noteTableMessage
+{
+    margin-top: -70px;
+    border: none;
+    width: 40%;
+    margin-left: 18%;
+    float: left;
+}
+
+.noteAcceptButt
+{
+    width: 40%;
+    padding: 5px 2px;
+    background-color: #55e67b;
+    border-radius: 10px;
+    float: left;
+    margin-top: 5px;
+}
+
+.noteAcceptButt:hover
+{
+    background-color: #255b2c;
+}
+
+.noteAcceptButt a
+{
+    display: block;
+    color: white;
+    font-family: "Arial Black", Arial, sans-serif;
+    text-align: center;
+    text-decoration: none;
+}
+
+.noteBackButt
+{
+    width: 10%;
+    padding: 5px 2px;
+    background-color: #bebebe;
+    border-radius: 10px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 55px;
+}
+
+.noteBackButt:hover
+{
+    background-color: #000000;
+}
+
+.noteBackButt a
+{
+    display: block;
+    color: white;
+    font-family: "Arial Black", Arial, sans-serif;
+    text-align: center;
+    text-decoration: none;
+}
+
+.noteDeleteButt
+{
+    width: 10%;
+    padding: 5px 2px;
+    background-color: #bebebe;
+    border-radius: 10px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.noteDeleteButt:hover
+{
+    background-color: #db4b12;
+}
+
+.noteDeleteButt a
+{
+    display: block;
+    color: white;
+    font-family: "Arial Black", Arial, sans-serif;
+    text-align: center;
+    text-decoration: none;
+}
+
+.noteAlreadyAccepted
+{
+    margin-top: 10px;
+}
+
+/* -------------- CSS for the move students page -------------- */
+
+.selectContainer2
+{
+    width: 30%;
+    float:left;
+    margin-top: -33px;
+    margin-left: 10.5%;
+    border: black solid 1px;
+}
+
+#classSelect2
+{
+    font-family: "Arial Black", Arial, sans-serif;
+    width: 15%;
+    float: left;
+    height: 33px;
+    margin: 10px;
+}
+
+/* -------------- CSS for the new city page -------------- */
+
+#newCityForm
+{
+    float: left;
+}
+
+
+#newCityForm input
+{
+    border: black 1px solid;
+    height: 30px;
+    border-radius: 10px;
+    width: 250px;
+}
+
+.newCitySubmit
+{
+    font-family: "Arial Black", Arial, sans-serif;
+    border: none;
+    background-color: #bebebe;
+    height: 30px;
+    border-radius: 10px;
+    width: 250px;
+}
+
+.newCitySubmit:hover
+{
+    font-family: "Arial Black", Arial, sans-serif;
+    color: white;
+    border: none;
+    background-color: #000000;
+    height: 30px;
+    border-radius: 10px;
+    width: 250px;
+}
+
+/* -------------- CSS for the main game menu -------------- */
+
+.mainGameContainer
+{
+    width: 100%;
+    height: 420px;
+    margin-top: 10px;
+    float: left;
+}
+
+.gameMenuTopRow
+ {
+     border: none;
+     width: 100%;
+     height: 49%;
+     margin-bottom: 2%;
+     float: left;
+ }
+
+.gameMenuBottomRow
+{
+    border: none;
+    width: 100%;
+    height: 49%;
+    float: left;
+}
+
+.gameMenuButt
+{
+    box-shadow: 7px 7px 5px #bebebe;
+    border-radius: 25px;
+    border: solid black 1px;
+    width: 32%;
+    height: 100%;
+    float: left;
+    margin-right: 2%;
+    background-color: white;
+}
+
+.gameMenuButt:hover
+{
+    box-shadow: none;
+    background-color: #bebebe;
+}
+
+.gameMenuButtRight
+{
+    box-shadow: 7px 7px 5px #bebebe;
+    border-radius: 25px;
+    border: solid black 1px;
+    width: 31.5%;
+    height: 100%;
+    float: left;
+    background-color: white;
+}
+
+.gameMenuButtRight:hover
+{
+    box-shadow: none;
+    background-color: #bebebe;
+}
+
+.imageHolder
+{
+    border: black 1px solid;
+    height: 160px;
+    width: 160px;
+    border-radius: 25px;
+    margin-left: 5%;
+    margin-top: 6%;
+}
+
+.imageHolder img
+{
+    margin-left: 4px;
+    margin-top: 5px;
+}
+
+.title
+{
+    float: left;
+    margin-top: -185px;
+    margin-left: 200px;
+}
+
+.title h1
+{
+    font-family: "Arial Black", Arial, sans-serif;
+    color: black;
+    text-decoration: none;
+}
+
+.gameButtText
+{
+    float: left;
+    margin-top: -120px;
+    margin-left: 200px;
+}
+
+.gameButtText p
+{
+    font-family: "Arial", Arial, sans-serif;
+    color: black;
+    text-decoration: none;
+}
+
+/* -------------- CSS for the houses page -------------- */
+
+.housesTopContainer
+{
+    border: none;
+    width: 100%;
+    height: 50px;
+}
+
+.housesButtContainer
+{
+    list-style-type: none;
+    margin-left: 180px;
+    margin-bottom: 0px;
+    margin-top: -1px;
+    padding: 0;
+    overflow: hidden;
+    float: left;
+}
+
+.housesButt
+{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom: 1px black solid;
+    float: right;
+    background-color: #bebebe;
+}
+
+.housesButt a
+{
+    display: block;
+    color: white;
+    font-family: "Arial Black", Arial, sans-serif;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.housesButt a:hover
+{
+    background-color: #111;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.housesHolder
+{
+    border: solid 1px black;
+    border-radius: 25px;
+    width: 96%;
+    height: 350px;
+    margin-left: 20px;
+}
+
+.myHousesLeftBar
+ {
+    overflow: scroll;
+     border-right: 1px solid black;
+     height: 330px;
+     width: 281px;
+     margin-top: 10px;
+ }
+
+.myHousesMain
+{
+    margin-left: 290px;
+    float: left;
+    border: none;
+    height: 330px;
+    width: 910px;
+    margin-top: -330px;
+    overflow: scroll;
+}
+
+.individualHouseHolder
+{
+    background-color: white;
+    border: 1px solid black;
+    width: 870px;
+    margin-left: 20px;
+    height: 100px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+.individualHouseHolder:hover
+{
+    background-color: #bebebe;
+}
+
+.individualHouseBuyer
+{
+    background-color: white;
+    border: 1px solid black;
+    width: 870px;
+    margin-left: 20px;
+    height: 100px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+.houseImageHolder
+{
+    background-color: white;
+    border: 1px solid black;
+    height: 90px;
+    width: 90px;
+    margin-top: 4px;
+    margin-left: 5px;
+    border-radius: 15px;
+    float: left;
+}
+
+.inHouseImageHolder
+{
+    background-color: white;
+    border: 1px solid black;
+    height: 170px;
+    width: 170px;
+    margin-top: 4px;
+    margin-left: 5px;
+    border-radius: 15px;
+    float: left;
+}
+
+.houseDetails
+{
+    width:750px;
+    padding: 4px;
+}
+
+.houseDetails td
+{
+    height: 40px;
+}
+
+.houseDetailsName
+{
+    text-align: left;
+    width: 250px;
+    font-family: "Arial Black", Arial, sans-serif;
+}
+
+.houseDetailsOccupancy
+{
+    text-align: left;
+}
+
+.houseDetailsType
+{
+    text-align: left;
+    width: 175px;
+}
+
+.houseDetailsUpCost
+{
+    text-align: left;
+    width: 200px;
+}
+
+.houseDetailsUpgrades
+{
+    text-align: right;
+    width: 150px;
+}
+
+#renameHouse
+{
+    float: left;
+    width: 300px;
+}
+
+#renameHouse input
+{
+    font-family: "Arial Black", Arial, sans-serif;
+    border: black 1px solid;
+    height: 30px;
+    border-radius: 10px;
+    width: 250px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.renameHouseButt
+{
+    font-family: "Arial Black", Arial, sans-serif;
+    margin-right: 20%;
+    margin-top: 15px;
+    background-color: #bebebe;
+    color: black;
+    border-radius: 10px;
+}
+
+.renameHouseButt:hover
+{
+    background-color: black;
+    color: white;
+}
+
+.changeRentButt
+{
+    border: black solid 1px;
+    font-family: "Arial Black", Arial, sans-serif;
+    margin-top: -25px;
+    margin-right: 25px;
+    padding: 6px 50px;
+    float: right;
+    background-color: #bebebe;
+    color: black;
+    border-radius: 10px;
+}
+
+.changeRentButt:hover
+{
+    background-color: black;
+    color: white;
+}
+
+.individualHouseUpper
+{
+    border-bottom: solid black 1px;
+    width: 909px;
+    height: 185px;
+}
+
+
+.indHouseUpperUpper
+{
+    border: none;
+    height: 80px;
+}
+
+.inHouseInfoTable
+{
+    margin-left: 185px;
+}
+
+.inHouseInfoTable tr
+{
+    height: 40px;
+}
+
+.inBusInfoTable
+{
+    margin-left: 185px;
+}
+
+.inBusInfoTable tr
+{
+    height: 40px;
+}
+
+.individualHouseLower
+{
+    margin-top: 5px;
+    width: 907px;
+    height: 120px;
+}
+
+.individualHouseUpgradeA
+{
+    width: 225px;
+    height: 140px;
+}
+
+.individualHouseUpgradeB
+{
+    width: 225px;
+    height: 140px;
+    margin-left: 228px;
+    float: left;
+    margin-top: -156px;
+}
+
+.individualHouseUpgradeC
+{
+    width: 225px;
+    height: 140px;
+    margin-left: 456px;
+    float: left;
+    margin-top: -156px;
+}
+
+.individualRepair
+{
+    width: 225px;
+    height: 140px;
+    margin-left: 680px;
+    float: left;
+    margin-top: -142px;
+}
+
+.upgradeButt
+{
+    background-color: #bebebe;
+    height: 30px;
+    border: solid black 1px;
+    border-radius: 10px;
+    width: 215px;
+}
+
+.demolishButt
+{
+    cursor: pointer;
+    background-color: #bebebe;
+    height: 30px;
+    border: solid black 1px;
+    border-radius: 10px;
+    width: 215px;
+    font-family: "Arial Black", Arial, sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.demolishButt:hover
+{
+    background-color: black;
+    color: white;
+}
+
+.repairButt
+{
+    margin-top: -13px;
+    background-color: #bebebe;
+    height: 30px;
+    border: solid black 1px;
+    border-radius: 10px;
+    width: 215px;
+}
+
+.upgradeButtLink
+ {
+     font-family: "Arial Black", Arial, sans-serif;
+     text-decoration: none;
+     color: black;
+ }
+
+.repairButtLink
+{
+    font-family: "Arial Black", Arial, sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.individualBusLower
+{
+    margin-top: 5px;
+    width: 907px;
+    height: 120px;
+}
+
+.closeBusButt
+{
+    cursor: pointer;
+    font-family: "Arial Black", Arial, sans-serif;
+    text-decoration: none;
+    color: black;
+
+    text-align: center;
+    float: right;
+    background-color: #bebebe;
+    height: 30px;
+    border: solid black 1px;
+    border-radius: 10px;
+    width: 215px;
+}
+
+.closeBusButt:hover
+{
+    background-color: black;
+    color: white;
+}
+
+.closeEducButt
+{
+    cursor: pointer;
+    font-family: "Arial Black", Arial, sans-serif;
+    text-decoration: none;
+    color: black;
+
+    text-align: center;
+    float: right;
+    background-color: #bebebe;
+    height: 30px;
+    border: solid black 1px;
+    border-radius: 10px;
+    width: 215px;
+    margin-top: -20px;
+}
+
+.closeEducButt:hover
+{
+    background-color: black;
+    color: white;
+}
+
+.educSpaceTableHolder
+{
+    margin-left: 200px;
+    margin-top: -40px;
+    border: solid 1px black;
+    width: 705px;
+    height: 130px;
+    overflow: scroll;
+}
+
+.individualEducLower
+{
+    margin-top: 15px;
+    width: 907px;
+    height: 140px;
+}
+
+.individualEducLowerHalfLeft
+{
+    width: 45%;
+    height: 140px;
+    float: left;
+}
+
+.individualEducLowerHalfRight
+{
+    margin-top: 20px;
+    float: right;
+    width: 50%;
+    height: 100px;
+}
+
+#utilSelect
+{
+    font-family: "Arial Black", Arial, sans-serif;
+    width: 100%;
+    height: 33px;
+}
+
+.utilsHolder
+{
+    margin-top: 15px;
+    float: left;
+    height: 280px;
+    width: 910px;
+    overflow: scroll;
+}
+
+.loadScreen
+{
+    display: none;
+    background-color: white;
+    opacity: 0.8;
+    position: fixed;
+    z-index: 2;
+    width: 99%;
+    height: 99%;
+    text-align: center;
+}
+
+
+.lastYearCitizensTableHolder
+{
+    margin-left: 10px;
+    margin-top: -20px;
+    float: left;
+    overflow: scroll;
+    width: 99%;
+    height: 300px;
+}
+
+.leaderboard
+{
+    width: 99%;
+    height: 400px;
+}
+
+.leaderboardClassSelector
+{
+    width: 100%;
+    height: 35px;
+    text-align: center;
+}
+
+.leaderboardSelectContainer
+{
+    width: 40%;
+    float:left;
+    margin-left: 200px;
+}
+
+.leaderboardHolder
+{
+    width: 100%;
+    height: 350px;
+    overflow: scroll;
+}
+
+.citizenTabHolder
+{
+    list-style: none;
+    margin-left: -30px;
+    margin-top: 0px;
+}
+
+.citizenTabButt
+{
+    width: 97%;
+    border-radius: 10px;
+    float: left;
+    background-color: #bebebe;
+}
+
+.citizenTabButt a
+{
+    display: block;
+    color: white;
+    font-family: "Arial Black", Arial, sans-serif;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+
+/* Change the link color to #111 (black) on hover */
+.citizenTabButt a:hover
+{
+    background-color: #111;
+    border-radius: 10px;
+}
+
+.citizenOverviewTable
+{
+    width: 100%;
+}
+
+.citizenOverviewTable td
+{
+    height: 40px;
+}
+
+.citizenOverviewBottomLeft
+{
+    border-right: solid 1px black;
+    width: 49%;
+    height: 130px;
+}
+
+.citizenOverviewBottomRight
+{
+    margin-left: 50%;
+    float: left;
+    width: 49%;
+    height: 130px;
+    margin-top: -130px;
+}
+
+.changeTaxButt
+{
+    border: black solid 1px;
+    font-family: "Arial Black", Arial, sans-serif;
+    margin-top: 15px;
+    padding: 6px 50px;
+    width: 98%;
+    float: left;
+    background-color: #bebebe;
+    color: black;
+    border-radius: 10px;
+}
+
+.changeTaxButt:hover
+{
+    background-color: black;
+    color: white;
+}
+
+.citizenDemoTable
+{
+    width: 100%;
+}
+
+.citizenDemoTable td
+{
+    height: 25px;
+}
+
+.myAvatarTop
+{
+    border-bottom: solid 1px black;
+    width: 100%;
+    height: 200px;
+}
+
+.myAvatarBottom
+{
+    overflow: scroll;
+    width: 100%;
+    height:210px;
+}
+
+.buyAvatarButt
+{
+    border: solid 2px black;
+    position: absolute;
+    z-index: 1;
+    font-family: "Arial Black", Arial, sans-serif;
+    float: left;
+    background-color: #bebebe;
+    margin-top: -20px;
+    margin-left: 10px;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.buyAvatarButt:hover
+{
+    background-color: black;
+    color: white;
+}
+
+.avatarItemsTableHolder
+{
+    width: 100%;
+    height:413px;
+    overflow: scroll;
+}
+
+.avatarItemHolder
+{
+    background-color: white;
+    border-radius: 20px;
+    width: 245px;
+    height: 150px;
+    border: solid 1px black;
+}
+
+.avatarItemHolder:hover
+{
+    background-color: #bebebe;
+}
+
+.avatarItemImageHolder
+{
+    background-color: white;
+    border-radius: 15px;
+    width: 75px;
+    height: 75px;
+    border: solid 1px black;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.avatarItemName
+{
+    margin-top: -90px;
+    margin-left: 90px;
+    font-family: "Arial Black", Arial, sans-serif;
+    font-size: 15px;
+    float: left;
+}
+
+.buyAvatarItemButt
+{
+    cursor: pointer;
+    margin-left: 15px;
+    margin-top: 10px;
+    text-align: center;
+    font-family: "Arial Black", Arial, sans-serif;
+    float: left;
+    background-color: #bebebe;
+    height: 30px;
+    border: solid black 1px;
+    border-radius: 10px;
+    width: 215px;
+}
+
+.removeAvatarItemButt
+{
+    cursor: pointer;
+    margin-left: 15px;
+    margin-top: 10px;
+    text-align: center;
+    font-family: "Arial Black", Arial, sans-serif;
+    float: left;
+    background-color: #bebebe;
+    height: 30px;
+    border: solid black 1px;
+    border-radius: 10px;
+    width: 215px;
+}
+
+.removeAvatarItemButt:hover
+{
+    background-color: #db4b12;
+}
+
+.equipAvatarItemButt
+{
+    cursor: pointer;
+    margin-left: 15px;
+    margin-top: 10px;
+    text-align: center;
+    font-family: "Arial Black", Arial, sans-serif;
+    float: left;
+    background-color: #bebebe;
+    height: 30px;
+    border: solid black 1px;
+    border-radius: 10px;
+    width: 215px;
+}
+
+.equipAvatarItemButt:hover
+{
+    background-color: #55e67b;
+}
+
+.notificationMain
+{
+    border: none;
+    width: 100%;
+    height: 400px;
+    margin-top: 10px;
+    float: left;
+    overflow: scroll;
+}
+
+
